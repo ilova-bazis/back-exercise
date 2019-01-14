@@ -1,23 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <div class="container">
+      <show-exercises></show-exercises>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import showExercises from './components/showExercises.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    'show-exercises': showExercises
   }
 }
 </script>
 
 <style>
-#app {
+#appss {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
